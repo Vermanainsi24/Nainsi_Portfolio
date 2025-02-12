@@ -65,6 +65,7 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectsHTML;
 
+<<<<<<< HEAD
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
     //     max: 20,
@@ -82,6 +83,8 @@ function showProjects(projects) {
     // /* SCROLL PROJECTS */
     // srtop.reveal('.work .box', { interval: 200 });
 
+=======
+>>>>>>> 02e0950 (Reinitialized repository)
     // isotope filter products
     var $grid = $('.box-container').isotope({
         itemSelector: '.grid-item',

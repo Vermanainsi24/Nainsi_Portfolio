@@ -59,8 +59,13 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
+<<<<<<< HEAD
             document.title = "Portfolio | Jigar Sable";
             $("#favicon").attr("href", "assets/images/favicon.png");
+=======
+            document.title = "Portfolio | Nainsi Verma";
+            $("#favicon").attr("href", "assets/images/Screenshot_2024-12-31_054351-removebg-preview.png");
+>>>>>>> 02e0950 (Reinitialized repository)
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -242,9 +247,15 @@ srtop.reveal('.education .box', { interval: 200 });
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
+<<<<<<< HEAD
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
+=======
+// /* SCROLL EXPERIENCE */
+// srtop.reveal('.experience .timeline', { delay: 400 });
+// srtop.reveal('.experience .timeline .container', { interval: 400 });
+>>>>>>> 02e0950 (Reinitialized repository)
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
